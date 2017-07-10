@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/platform/clock/built-in.o :=  ld -m elf_x86_64   -r -o drivers/staging/media/atomisp/platform/clock/built-in.o drivers/staging/media/atomisp/platform/clock/vlv2_plat_clock.o drivers/staging/media/atomisp/platform/clock/platform_vlv2_plat_clk.o 

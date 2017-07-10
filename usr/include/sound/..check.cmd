@@ -1,0 +1,1 @@
+cmd_usr/include/sound/.check := for f in hdsp.h emu10k1.h asound_fm.h asoc.h hdspm.h usb_stream.h snd_sst_tokens.h compress_offload.h tlv.h asequencer.h sb16_csp.h asound.h compress_params.h firewire.h sfnt_info.h  ; do echo "./usr/include/sound/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include x86; touch usr/include/sound/.check

@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/platform/built-in.o :=  ld -m elf_x86_64   -r -o drivers/staging/media/atomisp/platform/built-in.o drivers/staging/media/atomisp/platform/clock/built-in.o drivers/staging/media/atomisp/platform/intel-mid/built-in.o 

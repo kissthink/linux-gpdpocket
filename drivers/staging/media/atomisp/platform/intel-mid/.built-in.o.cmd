@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/platform/intel-mid/built-in.o :=  ld -m elf_x86_64   -r -o drivers/staging/media/atomisp/platform/intel-mid/built-in.o drivers/staging/media/atomisp/platform/intel-mid/intel_mid_pcihelpers.o drivers/staging/media/atomisp/platform/intel-mid/atomisp_gmin_platform.o 
